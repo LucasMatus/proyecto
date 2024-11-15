@@ -49,12 +49,40 @@ section {
 }
 
 /* Estilo para los contenedores de cada producto */
-.producto {
-    margin-bottom: 20px; /* Espaciado inferior entre los productos */
-    padding: 15px; /* Relleno dentro de cada contenedor de producto */
-    border: 1px solid #007BFF; /* Borde azul alrededor de cada producto */
-    border-radius: 5px; /* Bordes redondeados para el producto */
+/* Grilla de productos */
+.productos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 20px;
 }
+
+/* Tarjeta de producto */
+.product-card {
+    background-color: #f9f9f9;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+/* Títulos y precios */
+.product-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.product-price {
+    color: #e60000;
+    font-size: 1.1em;
+}
+
 
 /* Estilo para el contenedor de la cuadrícula de productos */
 .grid-container {
