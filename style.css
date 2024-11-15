@@ -95,5 +95,38 @@ footer p {
     font-size: 1em; /* Tamaño de fuente normal */
 }
 
+/* Estilo para los enlaces dentro del pie de página */
+footer a {
+    color: #1e90ff; /* Azul claro para los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-weight: bold; /* Pone los enlaces en negrita */
+    transition: color 0.3s ease; /* Transición suave al cambiar de color al pasar el cursor */
+}
+
+/* Estilo cuando se pasa el cursor sobre los enlaces */
+footer a:hover {
+    color: #87cefa; /* Cambia a un tono más claro de azul cuando se pasa el cursor */
+}
+
+/* Estilo para los enlaces de WhatsApp y Google Maps */
+.whatsapp-link, .maps {
+    display: inline-flex; /* Los elementos se muestran en línea y con flexbox */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+}
+
+/* Estilo para los íconos de WhatsApp y Google Maps */
+.whatsapp-icon, .maps img {
+    margin-right: 8px; /* Espaciado a la derecha de las imágenes */
+    border-radius: 4px; /* Bordes redondeados para los íconos */
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.2); /* Sombra suave alrededor de los íconos */
+    transition: transform 0.3s ease; /* Transición suave cuando se hace un efecto de transformación */
+}
+
+/* Efecto de aumento de tamaño cuando se pasa el cursor sobre los íconos */
+.whatsapp-icon:hover, .maps img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al pasar el mouse */
+}
+
+/* Fin del estilo para el pie de página */
 
 
