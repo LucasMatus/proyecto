@@ -20,4 +20,22 @@ header {
     width: 400px; /* Ancho de la imagen */
     text-align: center; /* Centra la imagen */
 }
+/* Estilo para las listas de navegación */
+nav ul {
+    list-style: none; /* Elimina los puntos de lista predeterminados */
+    padding: 0; /* Elimina el relleno predeterminado */
+}
+
+/* Estilo para los elementos de lista dentro del menú de navegación */
+nav ul li {
+    display: inline; /* Los elementos de lista se muestran en línea */
+    margin: 0 15px; /* Espaciado entre los elementos de la lista */
+}
+
+/* Estilo para los enlaces en el menú de navegación */
+nav ul li a {
+    color: white; /* Color blanco para los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-weight: bold; /* Establece el texto en negrita */
+}
 
