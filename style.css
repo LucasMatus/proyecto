@@ -7,3 +7,17 @@ body {
     color: #333; /* Color del texto */
 }
 
+/* Estilo para el encabezado de la página */
+header {
+    background-color: black; /* Fondo negro para el encabezado */
+    color: white; /* Color blanco para el texto del encabezado */
+    padding: 20px; /* Relleno de 20px alrededor del contenido */
+    text-align: center; /* Centra el texto en el encabezado */
+}
+
+/* Estilo para la clase .img */
+.img {
+    width: 400px; /* Ancho de la imagen */
+    text-align: center; /* Centra la imagen */
+}
+
