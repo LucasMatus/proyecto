@@ -50,12 +50,6 @@ section {
 }
 
 
- nav ul li {
-        display: block;
-        margin: 10px 0;
- }
-
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
