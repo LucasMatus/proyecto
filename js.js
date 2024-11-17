@@ -4,13 +4,6 @@
     box-sizing: border-box;
   }
   
-  header {
-    background-color: black;
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
-
   body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
