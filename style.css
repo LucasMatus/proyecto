@@ -1,12 +1,15 @@
-/* Estilo general para el cuerpo de la página */
 body {
-    font-family: Arial, sans-serif; /* Establece la tipografía Arial o sans-serif */
-    margin: 0; /* Elimina el margen predeterminado de la página */
-    padding: 0; /* Elimina el relleno predeterminado del body */
-    background-color: #f4f4f4; /* Color de fondo de la página */
-    color: #333; /* Color del texto */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
-
+*{
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
 /* Estilo para el encabezado de la página */
 header {
     background-color: black; /* Fondo negro para el encabezado */
@@ -89,6 +92,71 @@ section {
     display: grid; /* Usamos una cuadrícula para organizar los productos */
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Definimos las columnas, cada una con un tamaño mínimo de 300px */
     gap: 20px; /* Espaciado entre los elementos de la cuadrícula */
+}
+
+h2 {
+    text-align: center;
+    margin-left: 5px; 
+    font-size: 3rem;
+    padding: 0px;
+}
+
+
+.reseñas {
+  width: 300px;
+  height: auto;
+  margin: 35px auto 0;
+  overflow: hidden    ;
+  position: relative; 
+}
+
+.reseñas ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 300px;
+    animation: slide 15s infinite; 
+}
+
+.reseñas li {
+   list-style: none;
+    width: 100%;
+    flex-shrink: 0; 
+}
+
+.reseñas img {
+    width: 100%;
+
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+    20% {
+        transform: translateX(0%);
+    }
+    25% {
+        transform: translateX(-100%);
+    }
+    45% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(-200%);
+    }
+    70% {
+        transform: translateX(-200%);
+    }
+    75% {
+        transform: translateX(-300%);
+    }
+    95% {
+        transform: translateX(-300%);
+    }
+    100% {
+        transform: translateX(-400%);
+    }
 }
 
 /* Repetición de estilos para las secciones */
